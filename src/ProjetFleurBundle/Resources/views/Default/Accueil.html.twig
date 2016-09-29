@@ -1,0 +1,21 @@
+{% extends "template.html.twig" %}
+
+{% block title %}
+    {{ parent() }}
+    Accueil
+{% endblock %}
+
+{% block body %}
+   <h2>Bouquet Du Jour</h2>
+
+   <div><img src="{{ asset('img/bouquet-de-fleur.jpg') }}" class="Bouquet" alt="bouquet "></a>
+
+   <div><img src="{{ asset('img/barre.png') }}" class="Barre"></a>
+
+   <h2>Réseaux Sociaux</h2>
+       <ul class="containerRS">
+           <li><a href="#Instagram"><img src="{{ asset ('img/I.png') }}" class="imgrs" alt="Insta"></a></li> <!--Logo Instagram -->
+           <li><a href="#Facebook"><img src="{{ asset ('img/F.png') }}" class="imgrs" alt="Face"></a></li> <!--Logo Facebook -->
+           <li><a href="#Twitter"><img src="{{ asset ('img/T.png') }}" class="imgrs" alt="Twitter"></a></li> <!--Logo Twitters -->
+       </ul>
+{% endblock %}

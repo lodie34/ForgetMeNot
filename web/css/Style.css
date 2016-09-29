@@ -1,0 +1,126 @@
+body {
+    margin: 0 !important;
+}
+
+.ImgPrinci {
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.Bouquet {
+    width: 35%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Barre {
+    width: 70%;
+    margin-top: 70px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.containeRS li {
+    display: flex;
+    justify-content: space-around;
+}
+
+.containerRS {
+    display: flex;
+    justify-content: space-around;
+}
+
+.imgrs {
+    width: 50px;
+    margin-left: -50px;
+}
+
+footer {
+    font-size: 12px;
+    text-align: center;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.sidenav {
+    height: 37.5%;
+    width: 0;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: rgba(92,224,147,0.6);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 40px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 20px;
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover, .offcanvas a:focus {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    font-size: 40px;
+}
+
+.closebtn {
+    font-size: 60px;
+    cursor: pointer;
+}
+
+.boutonmenu {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 70px;
+    margin-top: 20px;
+    font-size: 60px;
+    cursor: pointer;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 10px;}
+}

@@ -1,0 +1,45 @@
+.ImgPrinci {
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+}
+
+.forget {
+    text-align: justify;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.bloctexte {
+    display: flex;
+    justify-content: space-around;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.patrick {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    text-align: justify;
+}
+
+.Separation {
+    width: 5px;
+    margin-top: 100px;
+}
+
+.claire {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    text-align: justify;
+}
+
