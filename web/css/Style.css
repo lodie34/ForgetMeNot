@@ -1,0 +1,229 @@
+/*css template.html */
+
+body {
+    margin: 0 !important;
+}
+
+#navigation li{
+list-style-type: none;
+font-size: 2em;
+text-align: center;
+color: black;
+}
+
+#navigation li a:visited{
+    color: black;
+}
+
+#navigation li a:active{
+    color: black;    
+}
+
+#navigation li a{
+list-style-type: none;
+text-decoration: none;
+}
+
+#navigation ul {
+    margin-top: 0px;
+    background-color: #FFFAF0;
+    border-bottom: 2px solid black;
+}
+
+/*.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 14px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.sidenav {
+    height: 42%;
+    width: 0;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: rgba(92,224,147,0.6);
+    overflow-x: hidden;
+    transition: 1s;
+    padding-top: 2px;
+}
+
+.sidenav a {
+    padding:2px 2px 4px 10px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    display: block;
+    transition: 0.40s;
+}
+
+.sidenav a:hover, .offcanvas a:focus {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    font-size: 30px;
+}
+
+.closebtn {
+    cursor: pointer;
+}
+
+.boutonmenu {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 70px;
+    margin-top: 20px;
+    font-size: 45px;
+    cursor: pointer;
+}*/
+
+.ImgPrinci {
+    width: 100%;
+}
+
+footer {
+    font-size: 12px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/*css Accueil.html*/
+
+h2 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.Bouquet {
+    width: 35%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Barre {
+    width: 70%;
+    margin-top: 70px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.containeRS li {
+    display: flex;
+    justify-content: space-around;
+}
+
+.containerRS {
+    display: flex;
+    justify-content: space-around;
+}
+
+.imgrs {
+    width: 50px;
+    margin-left: -50px;
+}
+
+/*css Qui.html*/
+
+.forget {
+    text-align: justify;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+/*.bloctexte {
+    display: flex;
+    justify-content: space-around;
+}*/
+
+.patrick {
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    text-align: justify;
+}
+
+/*.Separation {
+    width: 5px;
+    margin-top: 100px;
+}*/
+
+.claire {
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    text-align: justify;
+}
+
+/*css Contact.html*/
+
+h1 {
+    text-align: center;
+}
+
+#formulaire {
+    text-align: center;
+}
+
+#nom #prenom {
+    height: 50px;
+    width: 150px;
+}
+
+#message {
+    width: 80%;
+    height: 50px;
+    text-align: center;
+    text-justify: auto;
+}
+
+
+
+
+
+
+
+
+
+
+/*
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 30px;
+}*/
+
+
+

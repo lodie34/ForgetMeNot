@@ -1,0 +1,27 @@
+{% extends "template.html.twig" %}
+
+{% block title %}
+    {{ parent() }}
+    Contact
+{% endblock %}
+
+{% block body %}
+    <h1>FORMULAIRE DE CONTACT</h1>
+    
+    <form id="formulaire" action="action_page.php"> 
+        Nom : <br>
+        <input id="nom" type="text" name ="nom">
+        <br>
+        Prénom : <br>
+        <input id="prenom" type="text" name ="prénom">
+        <br><br>
+        Message : <br>
+        <input id="message" type="text" name ="message">
+        <br><br>
+        <input type="submit" value="Submit">
+        <input type="reset">
+    </form>
+    
+    <div></div>
+   
+{% endblock %}

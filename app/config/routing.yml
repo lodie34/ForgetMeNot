@@ -1,0 +1,4 @@
+fleur:
+    resource: "@FleurBundle/Controller/"
+    type:     annotation
+    prefix:   /

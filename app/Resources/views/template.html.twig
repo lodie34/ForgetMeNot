@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+   <head>
+       <meta charset="UTF-8"/>
+       <title>{% block title %}Forget Me Not{% endblock %}</title>
+       <link rel="stylesheet" href="{{ asset('css/Style.css') }}" type="text/css" />
+       <link rel="stylesheet" href="{{ asset('css/Style1.css') }}" type="text/css" />
+       <link rel="stylesheet" href="{{ asset('css/Style2.css') }}" type="text/css" />
+       <link rel="stylesheet" href="{{ asset('css/Style3.css') }}" type="text/css" />
+   </head>
+   <body>
+       <nav id="navigation"{#id="mySidenav" class="sidenav"#}><!--Barre de Nav-->
+           <ul {#href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a#}>
+               <li><a href="{{ path('accueil') }}">Accueil</a></li> <!--Onglet Accueil -->
+               <li><a href="{{ path('qui') }}">Qui sommes-nous</a></li> <!--Onglet Qui sommes-nous -->
+               <li><a href="{{ path('contact') }}">Contactez-nous</a></li> <!--Onglet Contactez-nous -->
+           </ul>
+       </nav>
+           
+      {# <span class="boutonmenu" cursor:pointer" onclick="openNav()">&#9776;</span>#}
+
+       {#<div><img src="{{ asset('img/ek0rkgwea2j.png') }}" class="ImgPrinci" alt="imgprinci"></div>#}
+        
+       {% block body %}{% endblock %}
+       
+       <footer>©2016 - Tout droit reservé </footer>
+          
+       {% block javascripts %}
+       <script src ="{{ asset('css/script.js') }}"></script>
+       {% endblock %}
+   </body>
+</html>
