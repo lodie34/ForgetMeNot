@@ -1,229 +1,158 @@
-/*css template.html */
+/*css template.html*/
 
-body {
+body { /*je remet tous les margin a 0 pour repartir au propre*/
     margin: 0 !important;
 }
 
-#navigation li{
-list-style-type: none;
-font-size: 2em;
-text-align: center;
-color: black;
-}
-
-#navigation li a:visited{
-    color: black;
-}
-
-#navigation li a:active{
-    color: black;    
-}
-
-#navigation li a{
-list-style-type: none;
-text-decoration: none;
-}
-
 #navigation ul {
-    margin-top: 0px;
-    background-color: #FFFAF0;
-    border-bottom: 2px solid black;
+    overflow: hidden;/*  */
+    background-color: #FFFAF0;/* Je met une couleur de fond a ma barre nav */
+    margin: 0px;/* Je met mes margin a 0 */
 }
 
-/*.dropdown {
-    position: relative;
-    display: inline-block;
+
+#navigation li{
+    list-style-type: none;/* J'enleve les puces */
+    float: left;/* Je le met en float a gauche */
+    font-size: 2em;/* Je lui met une taille de texte de 2em */
 }
 
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 14px 0px rgba(0,0,0,0.2);
-    padding: 12px 16px;
+#navigation li a {
+    display: block;/* Je le met en display block */
+    color: black;/* couleur de police en noir */
+    text-align: center;/* Je centre mon texte */
+    padding: 14px 16px;/* Je met un padding de 14 et 16 px */
+    text-decoration: none;/* J'enleve le soulignement de ma liste */
 }
 
-.dropdown:hover .dropdown-content {
-    display: block;
+#navigation li a:hover:not(.active) {/* Je met la couleur blanche au passage de souris sur l'objet */
+    background-color: white;
 }
 
-.sidenav {
-    height: 42%;
-    width: 0;
-    position: absolute;
-    z-index: 1;
-    top: 0;
-    right: 0;
-    background-color: rgba(92,224,147,0.6);
-    overflow-x: hidden;
-    transition: 1s;
-    padding-top: 2px;
+.active {/* Je met une couleur de fond pour le premier bouton de ma barre nav */
+    background-color: #D19275;
 }
-
-.sidenav a {
-    padding:2px 2px 4px 10px;
-    text-decoration: none;
-    font-size: 25px;
-    color: black;
-    display: block;
-    transition: 0.40s;
-}
-
-.sidenav a:hover, .offcanvas a:focus {
-    color: #f1f1f1;
-}
-
-.sidenav .closebtn {
-    position: absolute;
-    top: 0;
-    right: 10px;
-    font-size: 30px;
-}
-
-.closebtn {
-    cursor: pointer;
-}
-
-.boutonmenu {
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 70px;
-    margin-top: 20px;
-    font-size: 45px;
-    cursor: pointer;
-}*/
-
+    
 .ImgPrinci {
-    width: 100%;
+    display: block;/* Je me met en display block */
+    width: 100%;/* Je met une taille de 100% par rapport a son parent pour que il prenne la largeur de la page */
 }
 
 footer {
-    font-size: 12px;
-    text-align: center;
-    margin-top: 10px;
+    font-size: 0.9em;/* Je met une taille de 0.9em */
+    text-align: center;/* Je centre mon texte */
+    margin-top: 10px;/* Je lui met une marge de 10px au dessus*/
 }
 
 /*css Accueil.html*/
 
 h2 {
-    text-align: center;
-    margin-top: 30px;
+    text-align: center;/* Je centre mon texte */
+    margin-top: 30px;/* je met une margin au dessus de 30px */
 }
 
 .Bouquet {
-    width: 35%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.Barre {
-    width: 70%;
-    margin-top: 70px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.containeRS li {
-    display: flex;
-    justify-content: space-around;
+    width: 35%;/* Je lui met une taille de 35% a sa div parent */
+    display: block;/* Je le met en display block */
+    margin-left: auto;/* Je met les marges en auto pour centrer mon image */
+    margin-right: auto;/* Je met les marges en auto pour centrer mon image */
 }
 
 .containerRS {
-    display: flex;
-    justify-content: space-around;
+    display: flex;/* Je lui met le display en flex pour pouvoir mettre le space around */
+    justify-content: space-around;/* Je lui met le space around pour centrer correctement les deux textes */
 }
 
 .imgrs {
-    width: 50px;
-    margin-left: -50px;
+    width: 50px;/* Je met la taille de 50px a mes images de reseaux sociaux */
+    margin-left: -50px;/* Je lui enléve 50px a la marge de gauche */
 }
 
 /*css Qui.html*/
 
 .forget {
-    text-align: justify;
-    margin-left: 10%;
-    margin-right: 10%;
+    text-align: justify;/* J'aligne mon texte en le justifiant */
+    width: 80%;/* Je lui donne la taille de 80% par rapport a sa div  */
+    margin: 0 auto;/* Je lui met les margins a 0 en auto */
 }
-
-/*.bloctexte {
-    display: flex;
-    justify-content: space-around;
-}*/
 
 .patrick {
-    margin-left: auto;
-    margin-right: auto;
-    width: 60%;
-    text-align: justify;
+    margin: 0 auto;/* Je lui met les margins a 0 en auto */
+    width: 65%;/* Taille du texte patrick */
+    text-align: justify;/* J'aligne le texte en le justifiant */
 }
 
-/*.Separation {
-    width: 5px;
-    margin-top: 100px;
-}*/
-
 .claire {
-    margin-left: auto;
-    margin-right: auto;
-    width: 60%;
-    text-align: justify;
+    margin: 0 auto;/* Je lui met les margins a 0 en auto */
+    width: 60%;/* Taille du texte claire  */
+    text-align: justify;/* J'aligne le texte en le justifiant */
+}
+
+.bloctexte {
+    display: flex;/* Je met un display flex */
+    justify-content: space-around;/* Je lui met le space around pour centrer correctement les deux textes */
 }
 
 /*css Contact.html*/
 
-h1 {
+h1 {/* Je centre mes h1 */
     text-align: center;
 }
 
 #formulaire {
-    text-align: center;
+    text-align: center;/* Je centre les nomination de mes inputs */
+    background-color: rgba(255, 250, 240, 1); /* Je met une couleur de fond a la div du formulaire */
+    border: 2px solid #D19275;/* Je lui met une couleur de bordure */
+    margin: 0 20% 0 20%;/* Je met des margins sur chaque coté pour le visuel */
+    padding: 2%;/* Je lui met un padding */
+}
+#objet, #nomprenom, #mail{
+    width: 90%;/* Je lui donne la taille de 90% par rapport a sa div */
+    height: 30px;/* Je lui donne une hauteur de 30px */
+    text-align: center;/* Je centre le texte */
+    text-justify: auto;/* Je justifie le texte */
+    font-size: 1.5em;/* Je donne au texte une taille de 1.5em */
 }
 
-#nom #prenom {
-    height: 50px;
-    width: 150px;
+#message{
+    width: 90%;/* Je lui donne la taille de 90% par rapport a sa div */
+    height: 100px;/* Je lui donne une hauteur de 100px */
+    font-size: 1.3em;/* Je lui met une taille de texte de 1.3em */
 }
 
-#message {
-    width: 80%;
-    height: 50px;
-    text-align: center;
-    text-justify: auto;
+@media screen and (max-width: 1024px) { /*Responsive pour les telephones et tablettes*/
+    #navigation li{
+        float: none;/* J'enleve le float pour mettre les objets du menu l'un sous l'autre */
+        text-align: center;/* Je centre le texte */
+        color: black;/* Je met au texte la couleur noir */
+    }
+    
+    .active {/*  */
+        background-color: #FFFAF0;
+    }
+
+    #navigation li a:visited{/* Je met une couleurs au lien visiter de la barre nav */
+        color: #D19275;
+    }
+
+    #navigation li a:active{/*  */
+        color: #D19275;    
+    }
+    
+    #navigation li a:hover:not(.active) {/*  */
+        background-color: #FFFAF0;
+    }
+
+    #navigation ul {/* Je fini le menu par une bordure noir en bas */
+        border-bottom: 2px solid black;
+    }
+
+
+    .ImgPrinci {/* J'enleve l'image sur les plateformes plus petites pour eviter un chargement trop long' */
+        display: none;
+    }
+    
+    .bloctexte {/* j'enleve le display flex pour les mettres les uns en dessous des autres */
+        display: block;
+    }
 }
-
-
-
-
-
-
-
-
-
-
-/*
-
-h1 {
-    text-align: center;
-}
-
-h2 {
-    text-align: center;
-    margin-top: 30px;
-}
-
-h1 {
-    text-align: center;
-}
-
-h2 {
-    text-align: center;
-    margin-top: 30px;
-}*/
-
-
-

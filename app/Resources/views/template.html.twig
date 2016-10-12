@@ -9,18 +9,16 @@
        <link rel="stylesheet" href="{{ asset('css/Style3.css') }}" type="text/css" />
    </head>
    <body>
-       <nav id="navigation"{#id="mySidenav" class="sidenav"#}><!--Barre de Nav-->
-           <ul {#href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a#}>
-               <li><a href="{{ path('accueil') }}">Accueil</a></li> <!--Onglet Accueil -->
-               <li><a href="{{ path('qui') }}">Qui sommes-nous</a></li> <!--Onglet Qui sommes-nous -->
-               <li><a href="{{ path('contact') }}">Contactez-nous</a></li> <!--Onglet Contactez-nous -->
+        <div><img src="{{ asset('img/coucher.jpg') }}" class="ImgPrinci" alt="imgprinci"></div>
+              
+       <nav id="navigation"><!--Barre de Nav-->
+           <ul>
+               <li><a class="active" href="{{ path('accueil') }}">Accueil</a></li> <!--Onglet Accueil -->
+               <li><a id="qui" href="{{ path('qui') }}">Qui sommes-nous</a></li> <!--Onglet Qui sommes-nous -->
+               <li><a id="contact" href="{{ path('contact') }}">Contactez-nous</a></li> <!--Onglet Contactez-nous -->
            </ul>
        </nav>
-           
-      {# <span class="boutonmenu" cursor:pointer" onclick="openNav()">&#9776;</span>#}
-
-       {#<div><img src="{{ asset('img/ek0rkgwea2j.png') }}" class="ImgPrinci" alt="imgprinci"></div>#}
-        
+                
        {% block body %}{% endblock %}
        
        <footer>©2016 - Tout droit reservé </footer>
