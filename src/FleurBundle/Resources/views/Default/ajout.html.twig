@@ -1,0 +1,6 @@
+{% extends "template.html.twig" %}
+
+{% block body %}
+    {{form_start(formAddBouquet,{'attr':{'action':path('valid')}})}}
+    {{form_end(formAddBouquet)}}
+{% endblock %}

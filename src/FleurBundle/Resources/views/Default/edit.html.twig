@@ -1,0 +1,6 @@
+{% extends "template.html.twig" %}
+
+{% block body %}
+    {{form_start(formBouquet,{'attr':{'action':path('modifBouquet',{'id':id})}})}}
+    {{form_end(formBouquet)}}
+{% endblock %}

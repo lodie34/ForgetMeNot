@@ -1,0 +1,17 @@
+{% extends "template.html.twig" %}
+
+{% block body %}
+    <h1> Admin </h1>
+    <button> Ajouter </button>
+    
+    {# pour chaque instance en base de données ,on les structures #}
+    {% for bouquet in varBouquet %} {# for instance in variable #}
+        <div>
+            <h3>{{ bouquet.nom }}</h3>  {# on va chercher la colonne lié à l'entité correspondante #}
+            <img src="{{ bouquet.image }}">
+            <p>{{ bouquet.description }}</p>
+            <p><a href="{{ path('editBouquet',{'id':bouquet.id})}}">Edit</a></p>
+            <p><a href="{{ path('suprBouquet',{'id':bouquet.id})}}">Delete</a></p>
+        </div>
+    {% endfor %}
+{% endblock %}{# empty Twig template #}

@@ -13,7 +13,7 @@ body { /*je remet tous les margin a 0 pour repartir au propre*/
 
 #navigation li{
     list-style-type: none;/* J'enleve les puces */
-    float: left;/* Je le met en float a gauche */
+    float: left;/* Je le fait flotter a gauche */
     font-size: 2em;/* Je lui met une taille de texte de 2em */
 }
 
