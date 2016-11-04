@@ -58,6 +58,12 @@ h2 {
     margin-right: auto;/* Je met les marges en auto pour centrer mon image */
 }
 
+.forget {
+    text-align: justify;/* J'aligne mon texte en le justifiant */
+    width: 35%;/* Je lui donne la taille de 80% par rapport a sa div  */
+    margin: 0 auto;/* Je lui met les margins a 0 en auto */
+}
+
 .containerRS {
     display: flex;/* Je lui met le display en flex pour pouvoir mettre le space around */
     justify-content: space-around;/* Je lui met le space around pour centrer correctement les deux textes */
@@ -69,12 +75,6 @@ h2 {
 }
 
 /*css Qui.html*/
-
-.forget {
-    text-align: justify;/* J'aligne mon texte en le justifiant */
-    width: 80%;/* Je lui donne la taille de 80% par rapport a sa div  */
-    margin: 0 auto;/* Je lui met les margins a 0 en auto */
-}
 
 .patrick {
     margin: 0 auto;/* Je lui met les margins a 0 en auto */
